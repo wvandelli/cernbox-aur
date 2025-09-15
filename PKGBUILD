@@ -1,7 +1,7 @@
 # Maintainer: Johannes Lange (<firstname>DOT<lastname>ATcern.ch>)
 # Maintainer: Wainer Vandelli <wainer dot vandelli at gmail dot com>
 pkgname=cernbox
-pkgver=5.2.1.13464
+pkgver=5.3.2.15486
 pkgrel=1
 pkgdesc="Synchronization client for CERN's CERNBox cloud service (based on ownCloud). Note: CERN IT does not provide official support for Arch Linux. Use at your own risk."
 arch=('x86_64')
@@ -13,9 +13,9 @@ provides=('ocsync' 'cernboxsync')
 
 _repo='https://cernbox.cern.ch/cernbox/doc/Linux/repo/Fedora_39/'
 source=(
-    ${_repo}cernbox-client_${pkgver}.rpm
+    ${_repo}cernbox-client_${pkgver}_x86_64.rpm
 )
-md5sums=('a1340d6d9765dbe8dcfbc4c54a9329b4')
+md5sums=('08f9b092a7e3e82cc9e41e344a4fcd96')
 
 package() {
     mkdir "${pkgdir}/opt"
