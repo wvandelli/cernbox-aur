@@ -2,12 +2,12 @@
 # Maintainer: Wainer Vandelli <wainer dot vandelli at gmail dot com>
 pkgname=cernbox
 pkgver=5.3.2.15486
-pkgrel=1
+pkgrel=2
 pkgdesc="Synchronization client for CERN's CERNBox cloud service (based on ownCloud). Note: CERN IT does not provide official support for Arch Linux. Use at your own risk."
 arch=('x86_64')
 url="http://cernbox.web.cern.ch/"
 license=('GPL')
-depends=('qtkeychain')
+depends=('qtkeychain-qt6')
 optdepends=('cernbox-nemo: Nemo integration')
 provides=('ocsync' 'cernboxsync')
 
